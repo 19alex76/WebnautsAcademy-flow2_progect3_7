@@ -1,3 +1,12 @@
 import getMocksArray from './mock.js '
 
-console.log(getMocksArray());
+const mocks = getMocksArray()
+
+function setPins(dataArr){
+    const pinTemplate = document.querySelector('#pin')
+    const pinElement = pinTemplate.content
+    dataArr.map()
+
+
+}
+setPins()
